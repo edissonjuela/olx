@@ -1,0 +1,9 @@
+ {
+"nombre": "Nombre",
+"correo": "Correo",
+"contrseña": "Contrseña",
+"genero": "Genero",
+"pais": "Pais",
+"ubicacion":"ubicacion"
+
+}

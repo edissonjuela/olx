@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/stylesSessionStart.css";
 export const Fregisto = () => {
   return (
-    <div className="w-50 d-flex flex-column align-items-center">
+    <div className="center ">
       <Form>
         <FormGroup>
           <Label for="exampleEmail">Correo</Label>

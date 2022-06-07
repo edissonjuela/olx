@@ -2,11 +2,8 @@ import { Button, Form } from "react-bootstrap";
 import "../styles/stylesSessionStart.css";
 export const Login = ()=>{
     return(
-        <div className="center"  >
-             
-             <dir>
-               <h1 className="centerTitulo">Inicio de Session</h1>
-             </dir>
+        <div className="center "  >        
+         <h1 className="centerTitulo ">Inicio de Session</h1>
      
 <Form>
   <Form.Group className="mb-3" controlId="formBasicEmail">
