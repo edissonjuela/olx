@@ -1,13 +1,16 @@
 import { Button, Form, FormGroup } from "react-bootstrap";
 import { Label, Input, FormText } from "reactstrap";
-
 import "bootstrap/dist/css/bootstrap.min.css";
-
 import "../styles/stylesSessionStart.css";
-export const Fregisto = () => {
+
+export const Fregisto = (
+
+
+) => {
+
   return (
     <div className="center ">
-      <Form>
+      <Form >
         <FormGroup>
           <Label for="exampleEmail">Correo</Label>
           <Input
@@ -56,17 +59,14 @@ export const Fregisto = () => {
           <FormGroup check>
             <Input name="radio1" type="radio" /> <Label check>Maculino</Label>
           </FormGroup>
-          <FormGroup check disabled>
-            <Input disabled name="radio1" type="radio" />{" "}
-            <Label check>Ninguno</Label>
-          </FormGroup>
+     
         </FormGroup>
         <FormGroup check>
           <Input type="checkbox" />{" "}
           <Label check>Acepto los terminos y condiciones</Label>
         </FormGroup>
         <Button href="/home" type="submit">
-          Submit
+          Registrarme
         </Button>
       </Form>
     </div>

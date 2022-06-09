@@ -2,13 +2,13 @@ import React, { useEffect, useState } from "react";
 import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
 
 const containerStyle = {
-  width: "400px",
-  height: "400px",
+  width: "100%",
+  height: "200px",
 };
 
 const center = {
-  lat: -2.936227,
-  lng: -78.9703167,
+  lat: -2.928246,
+  lng:  -78.806861,
 };
 
 export const Mapa = () => {

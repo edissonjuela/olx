@@ -1,13 +1,13 @@
 import { Routes, Route, Router } from "react-router-dom";
 import { Login } from "../pages/Login";
-import { Fregisto } from "../componentes/Fregisto";
+import { Fregisto } from "../componentes/fromRegistro";
 import {Mapa } from "../componentes/mapa";
 import { Barra } from "../componentes/Navbar";
-import { Home } from "../pages/home";
+import { Home } from "../pages/Home";
 export const MainLayout = () => {
     return (
             
-        <div >   
+        <div  >   
             <div className="row  ">
                 <Barra/>
             </div>
